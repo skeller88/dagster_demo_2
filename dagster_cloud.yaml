@@ -1,0 +1,7 @@
+locations:
+  - location_name: data-eng-pipeline
+    code_source:
+      package_name: quickstart_etl
+    build:
+      directory: ./quickstart_etl
+      registry: localhost:5000/docker_image
